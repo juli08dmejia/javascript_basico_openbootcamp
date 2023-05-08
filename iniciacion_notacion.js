@@ -9,7 +9,6 @@ b + 4
 
 // [] --> listas, arreglos arrays
 const ar = [1,2,3,4] 
-
 console.log(ar)
 
 // () --> Funciones
