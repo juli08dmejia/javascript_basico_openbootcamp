@@ -1,0 +1,19 @@
+{
+  "name": "hola_mundo",
+  "version": "1.0.0",
+  "description": "Este es mi primer proyecto de javascript con Node en OpenBootcam",
+  "main": "index.js",
+  "scripts": {
+    "start":"node index.js",
+    "saludar": "node hola_mundo.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "primer_ejercicio":"Hola, este es mi primer ejercicio con Node en el mejor Bootcamp de programación del mundo"
+  },
+  "keywords": [
+    "holamundo",
+    "first",
+    "project"
+  ],
+  "author": "Julian",
+  "license": "ISC"
+}
