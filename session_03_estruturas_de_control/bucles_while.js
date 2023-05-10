@@ -15,7 +15,7 @@ while (i < max){
 i = 15 ;
 
 do {
-    console.log("EStoy en el Do WHile") ; 
+    console.log("Estoy en el Do WHile") ; 
 }while (i < max){
     console.log(i) ;
 }

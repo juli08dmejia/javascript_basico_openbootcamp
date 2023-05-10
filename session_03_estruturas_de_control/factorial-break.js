@@ -2,16 +2,21 @@ let factorial = 10 ;
 let resultado = 1;
 let conta = 1
 
-while ( conta >= factorial){
+console.log('Igual') ;
 
-    console.log(conta)
-    if ( conta == factorial){
-        console.log('Igual') ;
+while ( conta <= factorial){
+
+    if ( conta === 11){
+        console.log(`Igual a ${conta}`) ;
         break ;
     }
+
+    console.log(conta) ;   
     
-    resultado = ( resultado * conta )  ;
+    resultado = (resultado * conta)  ;
 
     console.log(`El factorial del número: ${conta} es ${resultado}`) ;
     conta++ ;
+
+   
 }
