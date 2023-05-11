@@ -7,7 +7,7 @@ console.log('Igual') ;
 while ( conta <= factorial){
 
     if ( conta === 11){
-        console.log(`Igual a ${conta}`) ;
+        console.log(`Igual a ${conta}`) ;        
         break ;
     }
 
