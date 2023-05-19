@@ -1,5 +1,4 @@
 //Cómo obtener una lista a partir de otra .slice()
-
 const array = ["hola", 1,2,3,true, null, "adios"]
 
 console.log(array.slice(1,4))
