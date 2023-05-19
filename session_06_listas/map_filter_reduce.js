@@ -1,4 +1,3 @@
-console.log("Hola")
 //Trabajar con métodos más avanzados 
 
 //.map() .filter() .reduce()
