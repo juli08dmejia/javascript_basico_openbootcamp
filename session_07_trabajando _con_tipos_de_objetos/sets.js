@@ -3,7 +3,7 @@
 
 const array = [1,2,3,4,5, 6,1, 2 , 5, "hola", { id: 5}, { id: 5}]
 
-const miSet = new Set(array)
+const miSet = new Set(array) 
 
 console.log(array)
 console.log(miSet)
