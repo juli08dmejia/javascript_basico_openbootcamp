@@ -1,44 +1,26 @@
-//Trabajando con fechas
-
+//Crea un archivo llamado fechas.js que contenga las siguientes líneas
+//La fecha de hoy
 const fecha = new Date()
-
 console.log(fecha)
 
-//Atensión los meses inicializan en 0
-const fecha2 = new Date(1987, 10,20,1, 23, 52, 192)
-console.log(fecha2)
+//La fecha de tu nacimiento
+const fecha_nacimiento = new Date("July 31, 1990 08:00")
+console.log(fecha_nacimiento)
 
-const fecha3 = new Date(-100000000) //MIlisegundos
-console.log(fecha3)
+//Un variable que indique si hoy es más tarde (>) que la fecha de tu nacimiento
 
-const fecha4 = new Date("October 13, 1978 12:15:15")
-console.log(fecha4)
+console.log(fecha.getTime() > fecha_nacimiento.getTime() )
 
-console.log(fecha > fecha2)
+//Una variable que contenga el día de tu nacimiento
+var dia = fecha_nacimiento.getDay() 
+console.log(dia)
 
-const fecha5 = new Date(1987, 10, 20,1, 23, 52, 192)
-console.log(fecha5)
+//Una variable que contenga el mes de tu nacimiento (recuerda que Enero es mes 0)
 
-console.log(fecha2 === fecha5) ///ERROR - No se puede comparar fechas de esta manera
+var mes = fecha_nacimiento.getMonth() 
+console.log(mes)
 
-console.log(fecha2.getTime() === fecha5.getTime() ) //Esta es la forma correcta de comparar la igualdad entre fechas
+//Una variable que contenga el año de tu nacimiento (con 4 dígitos)
 
-//////Obtener el día, el mes y el año de una fecha
-//Obtener el día .getDate()
-console.log(fecha2.getDate())
-
-//Obtener el mes .getMonth() (0 - Enero, 11 - Diciembre)
-console.log(fecha2.getMonth() + 1)
-
-//Obtener el año getFullYear()
-console.log(fecha2.getFullYear())
-
-console.log(fecha2)
-
-// .toLocalDateString
-// https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Date/toLocaleDateString
-console.log(fecha2.toLocaleDateString())
-
-
-
-
+var anyo = fecha_nacimiento.getFullYear() 
+console.log(anyo)
