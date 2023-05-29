@@ -22,5 +22,5 @@ try{
     console.log("Esto se va a ejecutar tanto si se produce algún error, como si no existe ninguno")
 }
 
-//INternalError , SyntaxError, TypeError, RangeError y ReferenceError
+//InternalError , SyntaxError, TypeError, RangeError y ReferenceError
 //https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Error
