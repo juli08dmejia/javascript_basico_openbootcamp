@@ -5,8 +5,8 @@ import axios from "axios"
 axios.get('https://pokeapi.co/api/v2/pokemon/ditto')
     .then(function (response) {
         //handle success
-        console.log("Sucess!!!") ;
-        console.log(response.) ;
+        console.log("Success!!!") ;
+        console.log(response) ;
     })
     .catch(function (error) {
         // handle error
