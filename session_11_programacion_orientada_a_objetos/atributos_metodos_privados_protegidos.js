@@ -38,6 +38,7 @@ class Persona{
     }
 }
 
+
 const persona = new Persona("Julian", 32)
 //console.log(persona)
 //console.log(persona.nombre)
