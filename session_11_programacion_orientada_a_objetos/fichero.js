@@ -18,6 +18,7 @@ class Estudiante{
 
     obtenDatos(){
         console.log(`Hola soy el estudiante ${this._nombre}, las asignaturas ${this._asignaturas} `)
+        //return (`Hola soy el estudiante ${this._nombre}, las asignaturas ${this._asignaturas} `)
     }
 }
 
@@ -26,5 +27,6 @@ console.log(nuevo_estudiante)
 nuevo_estudiante.obtenDatos()
 
 const nuevo_estudiante1 = new Estudiante("David", ["Python","PostgreSQL", "HTML", "css"])
-console.log(nuevo_estudiante1)
-nuevo_estudiante1.obtenDatos()
+console.log(nuevo_estudiante)
+nuevo_estudiante.obtenDatos()
+
